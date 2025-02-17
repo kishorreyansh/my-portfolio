@@ -49,7 +49,8 @@ export const Skills = () => {
             variants={itemVariants}
             className="flex items-center gap-4 rounded-xl border border-white/20 bg-white/5 p-4 backdrop-blur-sm"
           >
-            <span className="text-3xl text-blue-400">{skill.icon}</span>
+            <img src={skill.icon} alt={skill.name} className="h-12 w-12" />
+
             <span className="text-lg font-medium text-white md:text-xl">
               {skill.name}
             </span>

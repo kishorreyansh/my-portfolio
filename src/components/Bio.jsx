@@ -5,7 +5,7 @@ import { BIO } from "../constants";
 export const Bio = () => {
   return (
     <section
-      className="relative w-full max-w-7xl px-4 sm:px-6 py-8 sm:py-10 md:px-8 lg:px-12 overflow-hidden"
+      className="relative w-full max-w-7xl px-4 sm:px-6 py-8 sm:py-10 md:px-8 lg:px-12 overflow-hidden mt-24"
       id="bio"
     >
       <div className="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 lg:gap-16">

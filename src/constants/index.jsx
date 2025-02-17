@@ -8,14 +8,14 @@ import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
-import { RiJavaLine } from "react-icons/ri";
-import { RiAngularjsFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { FaAws } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiSencha } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { SiSpring } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+//import { RiAngularjsFill } from "react-icons/ri";
 
 export const NAVIGATION_LINKS = [
   { label: "Bio", href: "#bio" },
@@ -86,57 +86,56 @@ export const PROJECTS = [
   },
 ];
 
-/*"Kishor Kumar Andekar studied Information Technology at the JNTUH,from which he graduated in 2024. Following his education, he honed his craft and expertise over the course of 7 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",*/
 export const BIO = [
-  "Specialize in designing scalable fintech/telecom systems for Fortune 500 clients (Citi, DBS, Verizon) using Java/Spring Boot microservices, React UIs, and AWS cloud infrastructure. Delivered mission-critical platforms like Citi’s Global Pricing Server (50k+ daily transactions) and Verizon’s Automated Customer Support.",
+  "Specialize in designing scalable fintech/telecom systems for Fortune 500 clients (Citi, DBS, Verizon, Polaris) using Java/Spring Boot microservices, React UIs, and AWS cloud infrastructure. Delivered mission-critical platforms like Citi’s Global Pricing Server (50k+ daily transactions) and Verizon’s Automated Customer Support.",
   "End-to-End Technologist: Agile leader managing CI/CD pipelines (Jenkins/Docker), security frameworks (OAuth2.0), and cloud deployments (EC2/S3). Recognized with Verizon Spotlight and OpenText Delivery Excellence awards for technical execution.",
   "MS in Computer Science (3.8 GPA). Academic rigor with 10+ years of hands-on system architecture experience.",
 ];
 
 export const SKILLS = [
   {
-    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    icon: "./svgs/react.svg",
     name: "React",
     experience: "2+ years",
   },
   {
-    icon: <RiJavaLine className="text-4xl text-blue-400 lg:text-5xl" />,
+    icon: "./svgs/java.svg",
     name: "Java",
     experience: "2+ years",
   },
   {
-    icon: <SiSpring className="text-4xl text-green-400 lg:text-5xl" />,
+    icon: "./svgs/spring.svg",
     name: "Spring",
     experience: "2+ years",
   },
   {
-    icon: <SiSpringboot className="text-4xl text-green-500 lg:text-5xl" />,
+    icon: "./svgs/spring-boot.svg",
     name: "Spring Boot",
     experience: "2+ years",
   },
   {
-    icon: <FaAws className="text-4xl text-white-500 lg:text-5xl" />,
+    icon: "./svgs/aws_dark.svg",
     name: "AWS",
     experience: "3+ years",
   },
   {
-    icon: <SiSencha className="text-4xl text-green-500 lg:text-5xl" />,
+    icon: "./svgs/extjs.png",
     name: "Ext JS",
     experience: "6+ years",
   },
   {
-    icon: <RiAngularjsFill className="text-4xl text-red-500 lg:text-5xl" />,
-    name: "Angular",
-    experience: "2+ years",
-  },
-  {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
+    icon: "./svgs/mongodb-icon.svg",
     name: "MongoDB",
     experience: "1.5+ years",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
+    icon: "./svgs/postgresql.svg",
     name: "PostgreSQL",
+    experience: "1+ year",
+  },
+  {
+    icon: "./svgs/github.png",
+    name: "Github",
     experience: "1+ year",
   },
   /*
@@ -144,6 +143,11 @@ export const SKILLS = [
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
     experience: "1+ year",
+  },
+  {
+    icon: <RiAngularjsFill className="text-4xl text-red-500 lg:text-5xl" />,
+    name: "Angular",
+    experience: "2+ years",
   },
   {
     icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
@@ -160,42 +164,37 @@ export const SKILLS = [
 export const EXPERIENCES = [
   {
     title: "Senior Full Stack Developer",
-    company: "Citi Bank - Polaris Consulting and Services Limited",
+    company: "Polaris Consulting and Services Limited",
+    client: "Client - Citi Bank",
     duration: "August 2024 - December 2024",
     location: "Kansas, United States",
     responsibilities: [
       "Led development of Citi's Global Pricing Server handling 50k+ daily transactions",
       "Architected microservices using Spring Boot & React with AWS cloud deployment",
       "Implemented CI/CD pipelines reducing deployment time by 30%",
-      "Mentored 5 junior developers in Agile practices and code quality standards",
     ],
-    techStack: [
-      "Java",
-      "Spring Framework",
-      "Spring Boot",
-      "React",
-      "AWS",
-      "Kafka",
-      "Docker",
-    ],
+    techStack: ["Java", "Spring Framework", "Spring Boot", "React", "AWS"],
   },
   {
     title: "Senior Consultant",
-    company: "Development Bank of Singapore - OpenText",
+    company: "OpenText Technologies India Private. Ltd",
+    client: "Client - DBS",
     duration: "May 2019 - December 2022",
     location: "Hyderabad, India",
     responsibilities: [
-      "Developed core banking features for DBS digital platform using Angular & Spring Security",
+      "Developed core banking features for DBS digital platform using React & Spring Security",
       "Optimized database queries improving transaction processing by 40%",
       "Designed real-time analytics dashboard with WebSocket integration",
+      "Mentored 3 junior developers in Agile practices and code quality standards",
       "Awarded DBS Wall of Fame Award for technical innovation",
     ],
     techStack: [
       "Teamsite",
-      "Angular",
-      "Spring MVC",
+      "React",
+      "Spring Framework",
+      "Spring Boot",
       "Oracle DB",
-      "WebSocket",
+      "AWS",
       "Jenkins",
     ],
   },
@@ -205,27 +204,28 @@ export const EXPERIENCES = [
     duration: "January 2018 - December 2022",
     location: "Hyderabad, India",
     responsibilities: [
-      "Developed core banking features for DBS digital platform using Angular & Spring Security",
+      "Developed core banking features for DBS digital platform using React & Spring Security",
       "Optimized database queries improving transaction processing by 40%",
       "Designed real-time analytics dashboard with WebSocket integration",
       "Received Delivery Excellence Award for critical system migration",
     ],
     techStack: [
       "Teamsite",
-      "Angular",
-      "Spring MVC",
+      "React",
+      "Spring Framework",
       "Oracle DB",
-      "WebSocket",
       "Jenkins",
+      "JBoss",
     ],
   },
   {
     title: "System Development Analyst",
     company: "Verizon Data Services India Pvt. Ltd",
+    client: "",
     duration: "December 2014 - December 2017",
     location: "Hyderabad, India",
     responsibilities: [
-      "Built automated customer support system using Java EE stack",
+      "Built automated customer support system using Ext JS and Java EE stack",
       "Implemented IoT data processing pipeline handling 1M+ daily events",
       "Reduced server costs by 25% through cloud optimization strategies",
       "Awarded Verizon Spotlight Award for technical innovation",
@@ -233,6 +233,7 @@ export const EXPERIENCES = [
     techStack: [
       "Ext JS",
       "Java EE",
+      "Jenkins",
       "IE Edge",
       "IoT",
       "Volte",
@@ -242,40 +243,17 @@ export const EXPERIENCES = [
   },
   {
     title: "Associate Consultant",
-    company: "Polaris Consulting and Services Limited",
+    company: "Polaris Consulting and Services Limited - CitiBank",
+    client: "Client - Citi Bank",
     duration: "November 2013 - December 2014",
     location: "Hyderabad, India",
     responsibilities: [
       "Specialized in Ext JS front-end component development, creating responsive UI elements with HTML5, CSS3, and JavaScript.",
-      "Designed and implemented complex applications using Ext JS, ensuring seamless integration of components.",
+      "Designed and implemented complex applications using Ext JS, ensuring seamless integration of components for CitiBank.",
       "Optimized front-end performance with modern JavaScript features (ES6/ES7) and ensured fast loading times.",
       "Collaborated with cross-functional teams to deliver high-quality, user-friendly web applications",
     ],
-    techStack: ["Java EE", "Ext JS", "Servlets", "JSP"],
-  },
-];
-
-export const EXPERIENCES1 = [
-  {
-    title: "Frontend Developer",
-    company: "DBS",
-    duration: "May 2019 - December 2022",
-    description:
-      "As the Senior Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
-  },
-  {
-    title: "Frontend Engineer",
-    company: "OpenText",
-    duration: "January 2018 - December 2022",
-    description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Analyst",
-    company: "Verizon",
-    duration: "December 2014 - December 2017",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript, Ext JS to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+    techStack: ["Ext JS", "Java EE", "Servlets", "JSP"],
   },
 ];
 
@@ -301,7 +279,7 @@ export const EDUCATION = [
     duration: "May 2023 - December 2024",
     gpa: "3.8/4",
     description:
-      "Pursuing a Master of Science in Computer Science with a focus on software engineering, data science, cloud computing, etc. This program has deepened my expertise in key technologies or skills, such as Advanced Algorithms, Advanced Database, cloud platforms, Neural Networks, or Prog Found and AI , enabling me to tackle complex problems and drive innovative solutions. Graduated with a high GPA. Received Merit Letter from Professor.",
+      "Pursuing a Master of Science in Computer Science with a focus on software engineering, data science, cloud computing, etc. This program has deepened my expertise in key technologies or skills, such as Advanced Algorithms, Advanced Database, Cloud platforms, Neural Networks, or Prog Found and AI , enabling me to tackle complex problems and drive innovative solutions. Graduated with a high GPA. Received Merit Letter from Professor.",
   },
   {
     degree: "Bachelor of Science in Information Technology",

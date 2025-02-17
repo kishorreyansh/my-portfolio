@@ -34,6 +34,7 @@ export const WorkExperience = () => {
                   {experience.title}
                 </h3>
                 <p className="text-xl text-blue-400">{experience.company}</p>
+                <p className="text-xl text-blue-400">{experience.client}</p>
                 <p className="text-sm text-white/80">{experience.duration}</p>
               </div>
               <span className="mt-2 text-white/80 md:mt-0">

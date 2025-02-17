@@ -22,7 +22,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="sticky left-0 right-0 top-4 z-50 mx-auto max-w-7xl px-4 py-6">
+    <nav className="fixed left-0 right-0 top-4 z-50 mx-auto max-w-7xl px-4 py-6">
       {/* Desktop Navigation */}
       <motion.div
         initial={{ y: -100 }}
