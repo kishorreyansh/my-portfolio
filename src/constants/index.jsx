@@ -169,9 +169,9 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Senior Full-Stack Developer",
-    company: "Citi Bank · Polaris Consulting",
-    duration: "Aug 2024 - December 2024",
+    title: "Senior Full Stack Developer",
+    company: "Citi Bank - Polaris Consulting and Services Limited",
+    duration: "August 2024 - December 2024",
     location: "Kansas, United States",
     responsibilities: [
       "Led development of Citi's Global Pricing Server handling 50k+ daily transactions",
@@ -191,8 +191,8 @@ export const EXPERIENCES = [
   },
   {
     title: "Senior Consultant",
-    company: "Development Bank of Singapore · OpenText",
-    duration: "May 2019 - Dec 2022",
+    company: "Development Bank of Singapore - OpenText",
+    duration: "May 2019 - December 2022",
     location: "Hyderabad, India",
     responsibilities: [
       "Developed core banking features for DBS digital platform using Angular & Spring Security",
@@ -211,8 +211,8 @@ export const EXPERIENCES = [
   },
   {
     title: "Senior Consultant",
-    company: "•	OpenText Technologies India Private. Ltd",
-    duration: "January 2018 - Dec 2022",
+    company: "OpenText Technologies India Private. Ltd",
+    duration: "January 2018 - December 2022",
     location: "Hyderabad, India",
     responsibilities: [
       "Developed core banking features for DBS digital platform using Angular & Spring Security",
@@ -231,8 +231,8 @@ export const EXPERIENCES = [
   },
   {
     title: "System Development Analyst",
-    company: "Verizon Data Services",
-    duration: "Dec 2014 - Dec 2017",
+    company: "Verizon Data Services India Pvt. Ltd",
+    duration: "December 2014 - December 2017",
     location: "Hyderabad, India",
     responsibilities: [
       "Built automated customer support system using Java EE stack",
@@ -252,8 +252,8 @@ export const EXPERIENCES = [
   },
   {
     title: "Associate Consultant",
-    company: "Polaris Consulting and Services Limited ",
-    duration: "Nov 2013 - Dec 2014",
+    company: "Polaris Consulting and Services Limited",
+    duration: "November 2013 - December 2014",
     location: "Hyderabad, India",
     responsibilities: [
       "Specialized in Ext JS front-end component development, creating responsive UI elements with HTML5, CSS3, and JavaScript.",
@@ -261,7 +261,7 @@ export const EXPERIENCES = [
       "Optimized front-end performance with modern JavaScript features (ES6/ES7) and ensured fast loading times.",
       "Collaborated with cross-functional teams to deliver high-quality, user-friendly web applications",
     ],
-    techStack: ["Java EE", "Ext JS"],
+    techStack: ["Java EE", "Ext JS", "Servlets", "JSP"],
   },
 ];
 
