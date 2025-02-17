@@ -1,8 +1,7 @@
-import logo from "../assets/kishor-logo2.png";
 import { SOCIAL_MEDIA_LINKS } from "../constants";
 import { motion } from "framer-motion";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <div className="mt-10 mb-8">
       {/* Logo with sliding animation */}
@@ -48,5 +47,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;

@@ -1,6 +1,5 @@
 import { SKILLS } from "../constants";
 import { motion } from "framer-motion";
-import { MdDownload } from "react-icons/md";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -25,15 +24,14 @@ const itemVariants = {
   },
 };
 
-const Skills = () => {
+export const Skills = () => {
   return (
     <section className="relative mx-auto max-w-7xl px-6 pt-10 pb-4" id="skills">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="section-title"
-        //className="mb-12 text-center text-4xl font-bold text-white md:text-5xl"
+        className="flex items-center justify-center gap-3 text-2xl md:text-4xl font-bold text-text-light mb-12"
       >
         Technical Expertise
       </motion.h2>
@@ -61,5 +59,3 @@ const Skills = () => {
     </section>
   );
 };
-
-export default Skills;

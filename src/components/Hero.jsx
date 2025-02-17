@@ -1,8 +1,8 @@
-import React from "react";
 import { HERO } from "../constants";
 import kishorImg from "../assets/kishor.jpg";
 import { motion } from "framer-motion";
-const Hero = () => {
+
+export const Hero = () => {
   return (
     <section className="flex min-h-screen flex-wrap items-center">
       <motion.div
@@ -41,5 +41,3 @@ const Hero = () => {
     </section>
   );
 };
-
-export default Hero;

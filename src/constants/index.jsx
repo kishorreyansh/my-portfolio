@@ -1,11 +1,4 @@
-import {
-  FaXTwitter,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaDiscord,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
@@ -23,9 +16,6 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiSencha } from "react-icons/si";
 import { SiSpringboot } from "react-icons/si";
 import { SiSpring } from "react-icons/si";
-/*import { TbBrandNextjs } from "react-icons/tb";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";*/
 
 export const NAVIGATION_LINKS = [
   { label: "Bio", href: "#bio" },

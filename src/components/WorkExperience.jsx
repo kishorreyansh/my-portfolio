@@ -2,15 +2,14 @@ import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
 import { MdArrowOutward } from "react-icons/md";
 
-const WorkExperience = () => {
+export const WorkExperience = () => {
   return (
     <section className="mx-auto max-w-7xl px-6 pt-4 pb-10 md:px-12" id="work">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="section-title"
-        //className="mb-12 text-center text-4xl font-bold text-white md:text-5xl"
+        className="flex items-center justify-center gap-3 text-2xl md:text-4xl font-bold text-text-light mb-12"
       >
         Professional Journey
       </motion.h2>
@@ -67,5 +66,3 @@ const WorkExperience = () => {
     </section>
   );
 };
-
-export default WorkExperience;

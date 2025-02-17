@@ -1,36 +1,34 @@
-import React from "react";
-import { BIO } from "../constants";
 import { motion } from "framer-motion";
 import kishorPhoto from "../assets/kishor-latest.jpeg";
+import { BIO } from "../constants";
 
-const Bio = () => {
+export const Bio = () => {
   return (
     <section
-      className="relative mx-auto min-h-screen max-w-7xl px-6 py-10 md:px-12"
+      className="relative w-full max-w-7xl px-4 sm:px-6 py-8 sm:py-10 md:px-8 lg:px-12 overflow-hidden"
       id="bio"
     >
-      <div className="flex flex-col items-center gap-16 md:flex-row">
+      <div className="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12 lg:gap-16">
         {/* Photo Section */}
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, type: "spring" }}
-          className="md:w-1/3"
+          className="w-full md:w-1/3 max-w-[300px] md:max-w-none mx-auto"
         >
           <img
             src={kishorPhoto}
             alt="Kishor Kumar Andekar"
-            className="h-auto w-full max-w-md rounded-2xl shadow-2xl ring-2 ring-gray-200/30"
+            className="w-full rounded-2xl shadow-2xl ring-2 ring-gray-200/30"
           />
         </motion.div>
 
-        {/* Bio Content */}
         {/* Bio Content */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="md:w-2/3"
+          className="w-full md:w-2/3 text-center md:text-left"
         >
           <motion.p
             initial={{ opacity: 0, y: -20 }}
@@ -38,7 +36,7 @@ const Bio = () => {
             transition={{ duration: 0.5 }}
             className="mb-2 text-xl text-white/80 md:text-2xl"
           >
-            Hi, I'm
+            Hi, I&apos;m
           </motion.p>
 
           <motion.h1
@@ -78,5 +76,3 @@ const Bio = () => {
     </section>
   );
 };
-
-export default Bio;

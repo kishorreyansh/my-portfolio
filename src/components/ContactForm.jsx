@@ -4,7 +4,7 @@ import toast, { Toaster } from "react-hot-toast";
 import { FiSend, FiUser, FiMail, FiMessageSquare } from "react-icons/fi";
 import { motion } from "framer-motion";
 
-const ContactForm = () => {
+export const ContactForm = () => {
   // ... keep existing state and logic ...
 
   const [formData, setFormData] = useState({
@@ -52,7 +52,7 @@ const ContactForm = () => {
           formData,
           "dVxUCCwZEB13c8k2W"
         )
-        .then((response) => {
+        .then(() => {
           toast.success("Message sent successfully");
           setFormData({ name: "", email: "", message: "" });
         })
@@ -65,6 +65,7 @@ const ContactForm = () => {
         });
     }
   };
+
   return (
     <section className="mx-auto max-w-7xl px-6 pt-10 pb-20" id="contact">
       <Toaster />
@@ -83,7 +84,7 @@ const ContactForm = () => {
           className="space-y-6"
         >
           <h2 className="text-4xl font-bold text-white md:text-5xl">
-            Let's Collaborate
+            Let&apos;s Collaborate
           </h2>
           <p className="text-lg text-white/80">
             Open to discussing full-time roles, contract opportunities, or
@@ -223,5 +224,3 @@ const ContactForm = () => {
     </section>
   );
 };
-
-export default ContactForm;

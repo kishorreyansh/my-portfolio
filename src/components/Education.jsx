@@ -2,15 +2,14 @@ import { EDUCATION } from "../constants";
 import { motion } from "framer-motion";
 import { FaUniversity } from "react-icons/fa";
 
-const Education = () => {
+export const Education = () => {
   return (
     <section className="mx-auto max-w-7xl px-6 py-20 md:px-12" id="education">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="section-title"
-        //className="mb-12 text-center text-4xl font-bold text-white md:text-5xl"
+        className="flex items-center justify-center gap-3 text-2xl md:text-4xl font-bold text-text-light mb-12"
       >
         Academic Background
       </motion.h2>
@@ -72,5 +71,3 @@ const Education = () => {
     </section>
   );
 };
-
-export default Education;

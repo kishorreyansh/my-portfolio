@@ -5,7 +5,7 @@ import { NAVIGATION_LINKS } from "../constants";
 import { FaTimes, FaBars, FaFileDownload } from "react-icons/fa";
 import resumePDF from "../documents/Kishor_FS_Resume.pdf";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -139,5 +139,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;
