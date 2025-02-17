@@ -54,7 +54,8 @@ export const Bio = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mb-6 text-2xl text-white/90 md:text-3xl"
           >
-            Senior Full-Stack Engineer
+            Senior Full-Stack Engineer | React & Spring Boot Specialist |
+            End-to-End Scalable Solutions
           </motion.h2>
 
           {/* Use space-y for better spacing instead of mb-8 */}

@@ -87,7 +87,7 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Specialize in designing scalable fintech/telecom systems for Fortune 500 clients (Citi, DBS, Verizon, Polaris) using Java/Spring Boot microservices, React UIs, and AWS cloud infrastructure. Delivered mission-critical platforms like Citi’s Global Pricing Server (50k+ daily transactions) and Verizon’s Automated Customer Support.",
+  "Specialize in designing scalable fintech/telecom systems for Fortune 500 clients (Verizon, OpenText, DBS, Polaris, Citi Bank) using Java/Spring Boot microservices, React UIs, and AWS cloud infrastructure. Delivered mission-critical platforms like Citi’s Global Pricing Server (50k+ daily transactions) and Verizon’s Automated Customer Support.",
   "End-to-End Technologist: Agile leader managing CI/CD pipelines (Jenkins/Docker), security frameworks (OAuth2.0), and cloud deployments (EC2/S3). Recognized with Verizon Spotlight and OpenText Delivery Excellence awards for technical execution.",
   "MS in Computer Science (3.8 GPA). Academic rigor with 10+ years of hands-on system architecture experience.",
 ];
@@ -130,7 +130,7 @@ export const SKILLS = [
   },
   {
     icon: "./svgs/postgresql.svg",
-    name: "PostgreSQL",
+    name: "Postgre SQL",
     experience: "1+ year",
   },
   {
