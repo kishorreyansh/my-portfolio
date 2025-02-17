@@ -315,8 +315,8 @@ export const EDUCATION = [
   },
   {
     degree: "Bachelor of Science in Information Technology",
-    institution: "JNTU Hyderabad, India",
-    duration: "September 2012 - May 2016",
+    institution: "Global Institute of Engineering and Technology, India",
+    duration: "",
     gpa: "3.68/4 or 74%",
     description:
       "Received Topper of the College Award. Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
