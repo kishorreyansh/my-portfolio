@@ -39,7 +39,7 @@ export const Certifications = () => {
   const [expandedIndex, setExpandedIndex] = useState(-1);
 
   const handleCardClick = (index, pdf) => {
-    // Only expand the card if PDF is available
+    // Only expand the card if PDF is available.
     if (pdf !== "N/A") {
       setExpandedIndex(index === expandedIndex ? -1 : index);
     }
