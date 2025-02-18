@@ -1,11 +1,10 @@
 {
-  "homepage": "https://kishorreyansh.github.io/my-portfolio/",
   "name": "kishor-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "start":"npm run preview",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
