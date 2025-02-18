@@ -9,14 +9,6 @@ import awsDeveloper from "../documents/AWS_Certified_Developer_Associate.pdf";
 
 const CERTIFICATIONS = [
   {
-    title: "AWS Certified Cloud Practitioner",
-    score: "914/1000",
-    image: cloudPractitionerBadge,
-    pdf: awsCloudPractitioner,
-    description:
-      "Validated expertise in AWS cloud concepts, services, and basic architecture. Demonstrated cloud fluency and foundational technical skills.",
-  },
-  {
     title: "AWS Certified Developer - Associate",
     score: "904/1000",
     image:
@@ -24,6 +16,14 @@ const CERTIFICATIONS = [
     pdf: awsDeveloper,
     description:
       "Proven ability to develop and maintain AWS-based applications. Certified expertise in CI/CD, serverless architectures, and AWS SDKs.",
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",
+    score: "914/1000",
+    image: cloudPractitionerBadge,
+    pdf: awsCloudPractitioner,
+    description:
+      "Validated expertise in AWS cloud concepts, services, and basic architecture. Demonstrated cloud fluency and foundational technical skills.",
   },
   {
     title: "Oracle Certified Professional: Java SE 6 Programmer",
