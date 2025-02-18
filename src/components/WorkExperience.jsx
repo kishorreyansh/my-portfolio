@@ -1,6 +1,7 @@
 import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
 import { MdArrowOutward } from "react-icons/md";
+import { Award } from "lucide-react";
 
 export const WorkExperience = () => {
   return (
@@ -60,6 +61,23 @@ export const WorkExperience = () => {
                   {tech}
                 </span>
               ))}
+            </div>
+            {/* Add PDF button section */}
+            <div className="mt-6">
+              {experience.pdf && (
+                <a
+                  href={experience.pdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-2 text-teal-400 
+                        border border-teal-400 rounded-full px-6 py-2 
+                        transition-all duration-300 bg-teal-400/10 
+                        hover:bg-teal-400/20 hover:-translate-y-0.5"
+                >
+                  <span>View Award</span>
+                  <Award className="w-5 h-5" />
+                </a>
+              )}
             </div>
           </motion.div>
         ))}

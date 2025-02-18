@@ -4,8 +4,8 @@ import cloudPractitionerBadge from "../assets/cloud-practitioner-badge.png";
 import oracleSE6Badge from "../assets/oracle-se-6-badge.png";
 // import "./CertificationsNew.css";
 
-import awsCloudPractitioner from "../documents/AWS_Certified_Cloud_Practitioner.pdf";
-import awsDeveloper from "../documents/AWS_Certified_Developer_Associate.pdf";
+import awsCloudPractitioner from "../documents/aws_certified_cloud_practitioner.pdf";
+import awsDeveloper from "../documents/aws_certified_developer_associate.pdf";
 
 const CERTIFICATIONS = [
   {

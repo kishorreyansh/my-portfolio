@@ -1,6 +1,7 @@
 import { EDUCATION } from "../constants";
 import { motion } from "framer-motion";
 import { FaUniversity } from "react-icons/fa";
+import { Award } from "lucide-react";
 
 export const Education = () => {
   return (
@@ -63,6 +64,23 @@ export const Education = () => {
                       )
                   )}
                 </ul>
+                {/* Add PDF button section */}
+                <div className="mt-6">
+                  {edu.pdf && (
+                    <a
+                      href={edu.pdf}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center gap-2 text-teal-400 
+                        border border-teal-400 rounded-full px-6 py-2 
+                        transition-all duration-300 bg-teal-400/10 
+                        hover:bg-teal-400/20 hover:-translate-y-0.5"
+                    >
+                      <span>View Merit Letter</span>
+                      <Award className="w-5 h-5" />
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </motion.div>

@@ -17,6 +17,10 @@ import { SiSpring } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 //import { RiAngularjsFill } from "react-icons/ri";
 
+import meritLetter from "../documents/kishorkumar_recommendletter.pdf";
+import opentextAward from "../documents/opentext_award.pdf";
+import dbsAward from "../documents/kishor_dbs_award.pdf";
+
 export const NAVIGATION_LINKS = [
   { label: "Bio", href: "#bio" },
   { label: "Projects", href: "#projects" },
@@ -168,6 +172,7 @@ export const EXPERIENCES = [
     client: "Client - Citi Bank",
     duration: "August 2024 - December 2024",
     location: "Kansas, United States",
+    pdf: "",
     responsibilities: [
       "Led development of Citi's Global Pricing Server handling 50k+ daily transactions",
       "Architected microservices using Spring Boot & React with AWS cloud deployment",
@@ -181,6 +186,7 @@ export const EXPERIENCES = [
     client: "Client - DBS",
     duration: "May 2019 - December 2022",
     location: "Hyderabad, India",
+    pdf: dbsAward,
     responsibilities: [
       "Developed core banking features for DBS digital platform using React & Spring Security",
       "Optimized database queries improving transaction processing by 40%",
@@ -203,6 +209,7 @@ export const EXPERIENCES = [
     company: "OpenText Technologies India Private. Ltd",
     duration: "January 2018 - December 2022",
     location: "Hyderabad, India",
+    pdf: opentextAward,
     responsibilities: [
       "Developed core banking features for DBS digital platform using React & Spring Security",
       "Optimized database queries improving transaction processing by 40%",
@@ -224,6 +231,7 @@ export const EXPERIENCES = [
     client: "",
     duration: "December 2014 - December 2017",
     location: "Hyderabad, India",
+    pdf: "",
     responsibilities: [
       "Built automated customer support system using Ext JS and Java EE stack",
       "Implemented IoT data processing pipeline handling 1M+ daily events",
@@ -247,6 +255,7 @@ export const EXPERIENCES = [
     client: "Client - Citi Bank",
     duration: "November 2013 - December 2014",
     location: "Hyderabad, India",
+    pdf: "",
     responsibilities: [
       "Specialized in Ext JS front-end component development, creating responsive UI elements with HTML5, CSS3, and JavaScript.",
       "Designed and implemented complex applications using Ext JS, ensuring seamless integration of components for CitiBank.",
@@ -278,6 +287,7 @@ export const EDUCATION = [
     institution: "University of Central Missouri",
     duration: "May 2023 - December 2024",
     gpa: "3.8/4",
+    pdf: meritLetter,
     description:
       "Pursuing a Master of Science in Computer Science with a focus on software engineering, data science, cloud computing, etc. This program has deepened my expertise in key technologies or skills, such as Advanced Algorithms, Advanced Database, Cloud platforms, Neural Networks, or Prog Found and AI , enabling me to tackle complex problems and drive innovative solutions. Graduated with a high GPA. Received Merit Letter from Professor.",
   },
@@ -286,6 +296,7 @@ export const EDUCATION = [
     institution: "Global Institute of Engineering and Technology, India",
     duration: "",
     gpa: "3.68/4 or 74%",
+    pdf: "",
     description:
       "Received Topper of the College Award. Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
   },
