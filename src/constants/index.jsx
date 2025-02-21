@@ -113,7 +113,7 @@ export const SKILLS = [
     experience: "2+ years",
   },
   {
-    icon: "./svgs/spring-boot.svg",
+    icon: "./svgs/spring-boot-1.svg",
     name: "Spring Boot",
     experience: "2+ years",
   },
@@ -142,6 +142,21 @@ export const SKILLS = [
     name: "Github",
     experience: "1+ year",
   },
+  /*{
+    icon: "./svgs/redux.svg",
+    name: "Redux",
+    experience: "1+ year",
+  },
+  {
+    icon: "./svgs/redux.svg",
+    name: "Redux Toolkit",
+    experience: "1+ year",
+  },
+  {
+    icon: "./svgs/react-router-dark.svg",
+    name: "React Router",
+    experience: "1+ year",
+  },*/
   /*
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
@@ -289,7 +304,7 @@ export const EDUCATION = [
     gpa: "3.8/4",
     pdf: meritLetter,
     description:
-      "Pursuing a Master of Science in Computer Science with a focus on software engineering, data science, cloud computing, etc. This program has deepened my expertise in key technologies or skills, such as Advanced Algorithms, Advanced Database, Cloud platforms, Neural Networks, or Prog Found and AI , enabling me to tackle complex problems and drive innovative solutions. Graduated with a high GPA. Received Merit Letter from Professor.",
+      "Graduated with a Master of Science in Computer Science, concentrating on software engineering and cloud computing. This program has deepened my expertise in key technologies or skills, such as Advanced Algorithms, Advanced Database, Cloud platforms, Neural Networks, or Prog Found and AI , enabling me to tackle complex problems and drive innovative solutions. Graduated with a high GPA. Received Merit Letter from Professor.",
   },
   {
     degree: "Bachelor of Science in Information Technology",
