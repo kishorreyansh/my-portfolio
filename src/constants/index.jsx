@@ -182,26 +182,13 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Senior Full Stack Developer",
-    company: "Polaris Consulting and Services Limited",
-    client: "Client - Citi Bank",
-    duration: "August 2024 - December 2024",
-    location: "Kansas, United States",
-    pdf: "",
-    responsibilities: [
-      "Led development of Citi's Global Pricing Server handling 50k+ daily transactions",
-      "Architected microservices using Spring Boot & React with AWS cloud deployment",
-      "Implemented CI/CD pipelines reducing deployment time by 30%",
-    ],
-    techStack: ["Java", "Spring Framework", "Spring Boot", "React", "AWS"],
-  },
-  {
     title: "Senior Consultant",
     company: "OpenText Technologies India Private. Ltd",
     client: "Client - DBS",
     duration: "May 2019 - December 2022",
     location: "Hyderabad, India",
     pdf: dbsAward,
+    logo: "./companylogo/dbs.png",
     responsibilities: [
       "Developed core banking features for DBS digital platform using React & Spring Security",
       "Optimized database queries improving transaction processing by 40%",
@@ -225,10 +212,12 @@ export const EXPERIENCES = [
     duration: "January 2018 - December 2022",
     location: "Hyderabad, India",
     pdf: opentextAward,
+    logo: "./companylogo/opentext.png",
     responsibilities: [
-      "Developed core banking features for DBS digital platform using React & Spring Security",
-      "Optimized database queries improving transaction processing by 40%",
-      "Designed real-time analytics dashboard with WebSocket integration",
+      "Designed and implemented Data Capture Records (DCRs) for structured content management.",
+      "Developed FreeMarker templates for dynamic HTML generation and preview functionality.",
+      "Built an automation utility to convert Excel data into XML for seamless content integration.",
+      "Worked closely with teams, actively contributing to OpenText TeamSite expertise and implementation.",
       "Received Delivery Excellence Award for critical system migration",
     ],
     techStack: [
@@ -247,6 +236,7 @@ export const EXPERIENCES = [
     duration: "December 2014 - December 2017",
     location: "Hyderabad, India",
     pdf: "",
+    logo: "./companylogo/verizon.png",
     responsibilities: [
       "Built automated customer support system using Ext JS and Java EE stack",
       "Implemented IoT data processing pipeline handling 1M+ daily events",
