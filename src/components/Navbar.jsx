@@ -30,7 +30,7 @@ export const Navbar = () => {
         transition={{ duration: 0.5 }}
         className="hidden items-center justify-between rounded-xl border border-white/20 bg-black/20 px-6 py-3 backdrop-blur-lg lg:flex"
       >
-        <a href="#home" className="mr-8">
+        <a href="/" className="mr-8">
           <motion.img
             src={logo}
             alt="Kishor Logo"
