@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import kishorPhoto from "../assets/kishor-latest.jpeg";
+import kishorPhoto from "../assets/Kishor_New1.png";
 import { BIO } from "../constants";
 
 export const Bio = () => {
