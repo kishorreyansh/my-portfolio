@@ -258,7 +258,7 @@ export const EXPERIENCES = [
     title: "Associate Consultant",
     company: "Polaris Consulting and Services Limited - CitiBank",
     client: "Client - Citi Bank",
-    duration: "November 2013 - December 2014",
+    duration: "November 2011 - December 2014",
     location: "Hyderabad, India",
     pdf: "",
     responsibilities: [
