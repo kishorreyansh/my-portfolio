@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import logo from "../assets/kishor-logo2.png";
 import { NAVIGATION_LINKS } from "../constants";
 import { FaTimes, FaBars, FaFileDownload } from "react-icons/fa";
-import resumePDF from "../documents/Kishor_FS_Resume.pdf";
+import resumePDF from "../documents/kishor_java_developer.pdf";
 
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
