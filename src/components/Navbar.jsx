@@ -59,7 +59,7 @@ export const Navbar = () => {
 
           <motion.a
             href={resumePDF}
-            download="Kishor_Kumar_Andekar_Resume.pdf"
+            download="kishor_se_resume.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center gap-2 rounded-full bg-gold-600 px-6 py-2 text-lg font-semibold text-white transition-all hover:bg-gold-700"
