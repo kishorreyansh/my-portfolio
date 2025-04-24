@@ -56,9 +56,9 @@ export const Navbar = () => {
               </motion.li>
             ))}
           </ul>
-
+          {/* href={resumePDF} */}
           <motion.a
-            href={resumePDF}
+            href="#"
             download="kishor_se_resume.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

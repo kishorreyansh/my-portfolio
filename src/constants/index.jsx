@@ -98,6 +98,16 @@ export const BIO = [
 
 export const SKILLS = [
   {
+    icon: "./svgs/extjs.png",
+    name: "Ext JS",
+    experience: "6+ years",
+  },
+  {
+    icon: "./svgs/angular.jpeg",
+    name: "Angular",
+    experience: "4+ years",
+  },
+  {
     icon: "./svgs/react.svg",
     name: "React",
     experience: "2+ years",
@@ -118,14 +128,9 @@ export const SKILLS = [
     experience: "2+ years",
   },
   {
-    icon: "./svgs/aws_dark.svg",
-    name: "AWS",
-    experience: "3+ years",
-  },
-  {
-    icon: "./svgs/extjs.png",
-    name: "Ext JS",
-    experience: "6+ years",
+    icon: "./svgs/sql.jpeg",
+    name: "SQL",
+    experience: "4+ years",
   },
   {
     icon: "./svgs/mongodb-icon.svg",
@@ -136,6 +141,11 @@ export const SKILLS = [
     icon: "./svgs/postgresql.svg",
     name: "Postgre SQL",
     experience: "1+ year",
+  },
+  {
+    icon: "./svgs/aws_dark.svg",
+    name: "AWS",
+    experience: "3+ years",
   },
   {
     icon: "./svgs/github.png",
@@ -153,6 +163,11 @@ export const SKILLS = [
     experience: "1+ year",
   },
   {
+    icon: <RiAngularjsFill className="text-4xl text-red-500 lg:text-5xl" />,
+    name: "Angular",
+    experience: "2+ years",
+  },
+  {
     icon: "./svgs/react-router-dark.svg",
     name: "React Router",
     experience: "1+ year",
@@ -162,11 +177,6 @@ export const SKILLS = [
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
     experience: "1+ year",
-  },
-  {
-    icon: <RiAngularjsFill className="text-4xl text-red-500 lg:text-5xl" />,
-    name: "Angular",
-    experience: "2+ years",
   },
   {
     icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
