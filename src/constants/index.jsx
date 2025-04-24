@@ -211,7 +211,7 @@ export const EXPERIENCES = [
       "React",
       "Spring Framework",
       "Spring Boot",
-      "Oracle DB",
+      "SQL",
       "AWS",
       "Jenkins",
     ],
@@ -234,7 +234,7 @@ export const EXPERIENCES = [
       "Teamsite",
       "React",
       "Spring Framework",
-      "Oracle DB",
+      "SQL",
       "Jenkins",
       "JBoss",
     ],
@@ -243,7 +243,7 @@ export const EXPERIENCES = [
     title: "System Development Analyst",
     company: "Verizon Data Services India Pvt. Ltd",
     client: "",
-    duration: "December 2014 - December 2017",
+    duration: "December 2016 - December 2017",
     location: "Hyderabad, India",
     pdf: "",
     logo: "./companylogo/verizon.png",
@@ -255,7 +255,8 @@ export const EXPERIENCES = [
     ],
     techStack: [
       "Ext JS",
-      "Java EE",
+      "Angular",
+      "Java",
       "Jenkins",
       "IE Edge",
       "IoT",
@@ -263,7 +264,7 @@ export const EXPERIENCES = [
       "What If",
       "TAP",
     ],
-  },
+  } /*,
   {
     title: "Associate Consultant",
     company: "Polaris Consulting and Services Limited - CitiBank",
@@ -278,7 +279,7 @@ export const EXPERIENCES = [
       "Collaborated with cross-functional teams to deliver high-quality, user-friendly web applications",
     ],
     techStack: ["Ext JS", "Java EE", "Servlets", "JSP"],
-  },
+  }*/,
 ];
 
 export const CERTIFICATIONS = [
